@@ -1,0 +1,19 @@
+.user{
+    height: 100px;
+    width: 40vw;
+    margin: 15px;
+    text-align: left;
+    padding: 10px 20px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
+}
+.all-users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+@media  screen and (max-width: 800px){
+    .user{
+        width: 70vw;
+    }
+}

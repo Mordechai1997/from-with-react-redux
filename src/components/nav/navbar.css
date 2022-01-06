@@ -1,0 +1,27 @@
+li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+    cursor: pointer;
+    height: 100%;
+    width: 80px;
+    color: black;
+}
+
+ul{
+   height: 100%;
+   padding: 0;
+}
+.action{
+    border-bottom:rgba(75, 132, 243, 1) solid ;
+    color: rgba(75, 132, 243, 1);
+}
+
+nav{
+    height:40px;
+    margin-top: 10px;
+    border-bottom: solid #e7e9eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
